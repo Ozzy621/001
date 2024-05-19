@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("img/bg.jpg");
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #362616;
+}
+
+/*===標題區===*/
+.header{
+    background-image: url("img/header_bg.jpg");
+    width: 1200px;
+    height: 300px;
+    position: relative;
+}
+.header h1{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.header h1 img{}
+.header ul{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+.header li{
+    list-style: none;
+    float: left; 
+}
+.header li a{
+    color: #FFFFFF;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.header li a:hover{
+    color: #FFFF00;
+    text-decoration: underline;
+}
+
+/*===BOX區===*/
+.box{
+    padding: 35px;
+    overflow: hidden;
+}
+/*===選單區===*/
+.nav{
+    background-color: #d5b38e;
+    width: 200px;
+    float: left;
+    border-radius: 40px;
+    background-image: url("img/lefttop_bg.png"),url("img/leftbottom_bg.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position:-20px -20px,left bottom;
+    padding: 100px 50px 280px;
+}
+.nav ul{ }
+.nav li{
+    list-style: none;
+}
+.nav li a{ 
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: #000 1px dashed;
+    text-decoration: none;
+    color: #362616;
+    text-align: center;
+    font-weight: bold;
+}
+.nav li a:hover{ }
+
+/*===內容區===*/
+.content{
+    background-color: #9e7349;
+    width: 720px;
+    float: right;
+    padding:10px 40px 40px;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+.content h3{ 
+    font-family: 'Mansalva', cursive;
+    font-size: 100px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.content p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.content img{ 
+    border-top:#D5B38E 1px solid;
+    border-bottom:#D5B38E 1px solid;
+    padding: 30px 0;    
+}
+
+/*===版權宣告區===*/
+.footer{ 
+    padding-left: 400px;
+    padding-bottom: 20px;
+}
+.footer ul{ 
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.footer li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+.footer li a{ }
+.footer li a:hover{ }
+.footer h4{
+    color: #FFFFFF;
+}
+
+/*===右下廣告區===*/
+
+.ad{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
